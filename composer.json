@@ -29,7 +29,7 @@
   "require": {
     "php":                            ">=5.3.2",
     "knplabs/knp-markdown-bundle":    "dev-master",
-    "nicodmf/highlight":              "dev-master"
+    "nicodmf/highlight":              "master-dev"
   },
   "autoload": {
     "psr-0": { 
