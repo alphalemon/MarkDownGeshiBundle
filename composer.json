@@ -11,13 +11,13 @@
       "email": "info@alphalemon.com"
     }
   ],
-  "repositories": 
+  "repositories": [
     {
         "highlight-bundle": {
             "type": "package",
             "package": {
                 "name": "highlight/highlight",
-                "version": "1.0.0",
+                "version": "master",
                 "dist": {
                     "url": "https://github.com/nicodmf/HighlightBundle.git",
                     "type": "git",
@@ -30,11 +30,11 @@
                 }
             }
         }
-    },
+    }],
   "require": {
     "php":                            ">=5.3.2",
     "knplabs/knp-markdown-bundle":    "dev-master",
-    "highlight/highlight":            "1.0.*, >=dev-master"
+    "highlight/highlight":            "dev-master"
   },
   "autoload": {
     "psr-0": { 
