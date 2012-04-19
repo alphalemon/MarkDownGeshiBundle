@@ -17,11 +17,11 @@
             "type": "package",
             "package": {
                 "name": "nicodmf/highlight",
-                "version": "*",
+                "version": "master",
                 "source": {
                     "url": "https://github.com/nicodmf/HighlightBundle",
                     "type": "git",
-                    "reference": "*"
+                    "reference": "master"
                 }
             }
         }
