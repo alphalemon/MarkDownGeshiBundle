@@ -34,7 +34,7 @@
   "require": {
     "php":                            ">=5.3.2",
     "knplabs/knp-markdown-bundle":    "dev-master",
-    "highlight/highlight":            "1.0.*"
+    "highlight/highlight":            "1.0.*, >=dev-master"
   },
   "autoload": {
     "psr-0": { 
