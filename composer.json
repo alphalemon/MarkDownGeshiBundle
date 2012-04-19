@@ -21,7 +21,7 @@
                 "source": {
                     "url": "https://github.com/nicodmf/HighlightBundle",
                     "type": "git",
-                    "reference": "master"
+                    "reference": "origin/master"
                 }
             }
         }
