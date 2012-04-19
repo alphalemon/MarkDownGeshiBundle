@@ -11,63 +11,30 @@
       "email": "info@alphalemon.com"
     }
   ],
-  "repositories": {
-        "symfony-unofficial": {
-            "type": "package",
-            "package": {
-                "name": "fos/facebookbundle",
-                "version": "2.0",
-                "source": {
-                    "url": "git://github.com/FriendsOfSymfony/FOSFacebookBundle.git",
-                    "type": "git",
-                    "reference": "origin/2.0"
-                }
-            }
-        }
-    }
-    
   "repositories": 
     {
         "highlight-bundle": {
             "type": "package",
             "package": {
-                "name": "nicodmf/highlight",
-                "version": "master",
-                "source": {
-                    "url": "https://github.com/nicodmf/HighlightBundle",
+                "name": "highlight/highlight",
+                "version": "1.0.0",
+                "dist": {
+                    "url": "https://github.com/nicodmf/HighlightBundle.git",
                     "type": "git",
-                    "reference": "master"
+                    "reference": "dev-master"
+                },
+                "source": {
+                    "url": "https://github.com/nicodmf/HighlightBundle.git",
+                    "type": "git",
+                    "reference": "dev-master"
                 }
             }
         }
     },
-    
-    "repositories": [
-02	    {
-03	        "type": "package",
-04	        "package": {
-05	            "name": "vendor/package",
-06	            "version": "1.0.0",
-07	            "dist": {
-08	                "url": "http://example.org/package.zip",
-09	                "type": "zip"
-10	            },
-11	            "source": {
-12	                "url": "git://example.org/package.git",
-13	                "type": "git",
-14	                "reference": "tag name, branch name or commit hash"
-15	            }
-16	        }
-17	    }
-18	],
-19	"require": {
-20	    "vendor/package": "1.0.0"
-21	}
-    
   "require": {
     "php":                            ">=5.3.2",
     "knplabs/knp-markdown-bundle":    "dev-master",
-    "highlight":                      "dev-master"
+    "highlight/highlight":            "1.0.*"
   },
   "autoload": {
     "psr-0": { 
