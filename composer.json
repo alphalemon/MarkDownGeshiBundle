@@ -17,7 +17,7 @@
             "type": "package",
             "package": {
                 "name": "highlight",
-                "version": "dev-master",
+                "version": "master",
                 "source": {
                     "url": "https://github.com/nicodmf/HighlightBundle.git",
                     "type": "git",
