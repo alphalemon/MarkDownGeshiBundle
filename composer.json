@@ -17,7 +17,7 @@
             "type": "package",
             "package": {
                 "name": "nicodmf/highlight",
-                "version": "dev-master",
+                "version": "*",
                 "source": {
                     "url": "https://github.com/nicodmf/HighlightBundle",
                     "type": "git",
@@ -29,7 +29,7 @@
   "require": {
     "php":                            ">=5.3.2",
     "knplabs/knp-markdown-bundle":    "dev-master",
-    "nicodmf/highlight":              "dev-master"
+    "nicodmf/highlight":              "*"
   },
   "autoload": {
     "psr-0": { 
