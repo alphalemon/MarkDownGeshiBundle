@@ -1,0 +1,13 @@
+{
+    "bundles" : {
+        "AlphaLemon\\Block\\BusinessMarkdownGeshiBundle\\BusinessMarkdownGeshiBundle" : {
+            "environments" : ["alcms", "alcms_dev", "test"]
+        },
+        "Knp\\Bundle\\MarkdownBundle\\KnpMarkdownBundle" : {
+            "environments" : ["all"]
+        },
+        "Highlight\\Bundle\\HighlightBundle" : {
+            "environments" : ["all"]
+        }
+    }
+}

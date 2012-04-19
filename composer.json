@@ -1,0 +1,41 @@
+{
+  "name": "alphalemon/app-markdown-geshi-bundle",
+  "description": "An AlphaLemon CMS app that let you add markdown files and renders them. In addiction it can highlight sorce code using geshi as preferred provider",
+  "keywords": ["alphalemon", "cms", "app"],
+  "homepage": "http://alphalemon.com",
+  "type": "alphalemon-app",
+  "license": "GPLv2",
+  "authors": [
+    {
+      "name": "AlphaLemon",
+      "email": "info@alphalemon.com"
+    }
+  ],
+  "repositories": [
+    {
+        "highlight": {
+            "type": "package",
+            "package": {
+                "name": "highlight",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/nicodmf/HighlightBundle",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    }
+  ],
+  "require": {
+    "php":                            ">=5.3.2",
+    "knplabs/knp-markdown-bundle":    "dev-master",
+    'highlight':                      "dev-master"
+  },
+  "autoload": {
+    "psr-0": { 
+        "AlphaLemon\\Block\\MarkdownGeshiBundle": ""
+    }
+  },
+  "target-dir" : "AlphaLemon/Block/MarkdownGeshiBundle"   
+}

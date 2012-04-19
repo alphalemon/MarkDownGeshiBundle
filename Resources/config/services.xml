@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>  
+        <parameter key="el_finder.markdown_connector">AlphaLemon\Block\MarkdownGeshiBundle\Core\ElFinder\ElFinderMarkdownGeshiConnector</parameter>
+        <parameter key="al.deploy_bundle.markdown_folder">markdown</parameter>        
+        
+        <parameter key="markdowngeshi_required_stylesheets" type="collection">
+            <parameter>@MarkdownGeshiBundle/Resources/public/css/markdown.css</parameter>
+            <parameter>@HighlightBundle/Resources/public/geshi.css</parameter>
+        </parameter>
+    </parameters>
+
+    <services>
+        <service id="el_finder_markdown_connector" class="%el_finder.markdown_connector%" >
+            <argument type="service" id="service_container" />
+        </service>
+    </services>
+</container>

@@ -1,0 +1,2 @@
+_markdown_content:
+    resource: "@MarkdownGeshiBundle/Resources/config/routing/markdown.xml"
