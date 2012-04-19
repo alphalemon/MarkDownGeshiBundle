@@ -21,12 +21,12 @@
                 "dist": {
                     "url": "https://github.com/nicodmf/HighlightBundle.git",
                     "type": "git",
-                    "reference": "dev-master"
+                    "reference": "master"
                 },
                 "source": {
                     "url": "https://github.com/nicodmf/HighlightBundle.git",
                     "type": "git",
-                    "reference": "dev-master"
+                    "reference": "master"
                 }
             }
         }
