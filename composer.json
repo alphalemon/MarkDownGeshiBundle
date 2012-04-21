@@ -12,25 +12,24 @@
     }
   ],
   "repositories": [
-    {
-        "highlight-bundle": {
-            "type": "package",
-            "package": {
-                "name": "highlight/highlight",
-                "version": "master",
-                "dist": {
-                    "url": "https://github.com/nicodmf/HighlightBundle.git",
-                    "type": "git",
-                    "reference": "master"
-                },
-                "source": {
-                    "url": "https://github.com/nicodmf/HighlightBundle.git",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
+  {
+    "type": "package",
+    "package": {
+      "name": "highlight/highlight",
+      "version": "master",
+      "dist": {
+        "url": "https://github.com/nicodmf/HighlightBundle.git",
+        "type": "git",
+        "reference": "master"
+        },
+      "source": {
+        "url": "https://github.com/nicodmf/HighlightBundle.git",
+        "type": "git",
+        "reference": "master"
         }
-    }],
+      }
+    }
+  ],
   "require": {
     "php":                            ">=5.3.2",
     "knplabs/knp-markdown-bundle":    "dev-master",
