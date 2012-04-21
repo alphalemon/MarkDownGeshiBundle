@@ -19,7 +19,8 @@
   ],
   "require": {
     "php":                            ">=5.3.2",
-    "nicodmf/highlight-bundle":       "dev-master"
+    "knplabs/knp-markdown-bundle":    "dev-master",
+    "nicodmf/highlight":              "dev-master"
   },
   "autoload": {
     "psr-0": { 
