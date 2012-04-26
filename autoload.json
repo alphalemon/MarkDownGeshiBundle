@@ -1,6 +1,6 @@
 {
     "bundles" : {
-        "AlphaLemon\\Block\\BusinessMarkdownGeshiBundle\\BusinessMarkdownGeshiBundle" : {
+        "AlphaLemon\\Block\\MarkdownGeshiBundle\\MarkdownGeshiBundle" : {
             "environments" : ["alcms", "alcms_dev", "test"]
         },
         "Knp\\Bundle\\MarkdownBundle\\KnpMarkdownBundle" : {
