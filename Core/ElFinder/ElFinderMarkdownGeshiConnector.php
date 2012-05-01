@@ -25,13 +25,13 @@ class ElFinderMarkdownGeshiConnector extends AlphaLemonElFinderBaseConnector
         
         $realUploadPath = $this->container->getParameter('kernel.root_dir') . '/../web/' . $absoluteUploadPath; 
         if(!is_dir($realUploadPath)) mkdir ($realUploadPath);
-            
+        
         $options = array(
             'roots' => array(
                 array(
                     'driver'        => 'LocalFileSystem',   // driver for accessing file system (REQUIRED)
                     'path'          => $absoluteUploadPath . '/',         // path to files (REQUIRED)
-                    'URL'           => $request->getScheme().'://'.$request->getHttpHost() . '/' . $absolutePath, // URL to files (REQUIRED)
+                    'URL'           => $request->getScheme().'://'.$request->getHttpHost() . '/' . $absoluteUploadPath, // URL to files (REQUIRED)
                     'accessControl' => 'access'             // disable and hide dot starting files (OPTIONAL)
                 )
             )
