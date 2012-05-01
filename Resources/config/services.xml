@@ -8,7 +8,7 @@
         <parameter key="el_finder.markdown_connector">AlphaLemon\Block\MarkdownGeshiBundle\Core\ElFinder\ElFinderMarkdownGeshiConnector</parameter>
         <parameter key="al.deploy_bundle.markdown_folder">markdown</parameter>        
         
-        <parameter key="markdowngeshi_required_stylesheets" type="collection">
+        <parameter key="markdowngeshi.stylesheets" type="collection">
             <parameter>@MarkdownGeshiBundle/Resources/public/css/markdown.css</parameter>
             <parameter>@HighlightBundle/Resources/public/geshi.css</parameter>
         </parameter>
