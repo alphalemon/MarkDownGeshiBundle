@@ -1,0 +1,2 @@
+imports:
+  - { resource: "@HighlightBundle/Resources/config/config.yml" }
